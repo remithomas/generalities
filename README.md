@@ -1,4 +1,4 @@
-# Generalities [![Build Status](https://travis-ci.org/remithomas/generalities.svg?branch=master)](https://travis-ci.org/remithomas/generalities)
+# Generalities [![Build Status](https://travis-ci.org/remithomas/generalities.svg?branch=master)](https://travis-ci.org/remithomas/generalities) [![npm version](https://img.shields.io/npm/v/generalities.svg?style=flat-square)](https://www.npmjs.com/package/generalities)
 
 > Simple common constants
 
