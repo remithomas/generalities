@@ -1,14 +1,12 @@
-# Generalities
+# Generalities [![Build Status](https://travis-ci.org/remithomas/generalities.svg?branch=master)](https://travis-ci.org/remithomas/generalities)
 
 > Simple common constants
 
-## How to install
+## How to use
 
 ```bash
-npm install generalities
+npm install generalities --save
 ```
-
-## How to use
 
 ### Http Codes
 
@@ -16,6 +14,16 @@ npm install generalities
 import { HTTP_CODE_NOT_FOUND } from 'generalities/http-code';
 console.log(HTTP_CODE_NOT_FOUND);
 ```
+
+## Developement
+
+```bash
+npm install
+```
+
+## Contributing
+
+Please feel free to submit, comment anything on this repo :)
 
 ## Todos
 
