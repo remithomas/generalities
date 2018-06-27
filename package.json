@@ -4,6 +4,8 @@
   "description": "Common constants",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,7 +16,7 @@
     "constants",
     "common"
   ],
-  "author": "Remi Thomas <remi.thomas@bnc.ca>",
+  "author": "Remi Thomas <remi.thomas@yahoo.fr>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/remithomas/generalities/issues"
