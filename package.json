@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/remithomas/generalities/issues"
   },
-  "homepage": "https://github.com/remithomas/generalities#readme"
+  "homepage": "https://github.com/remithomas/generalities#readme",
+  "devDependencies": {
+    "eslint": "^5.0.1"
+  }
 }
