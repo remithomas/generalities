@@ -1,0 +1,23 @@
+{
+  "name": "generalities",
+  "version": "1.0.0",
+  "description": "Common constants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remithomas/generalities.git"
+  },
+  "keywords": [
+    "constants",
+    "common"
+  ],
+  "author": "Remi Thomas <remi.thomas@bnc.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remithomas/generalities/issues"
+  },
+  "homepage": "https://github.com/remithomas/generalities#readme"
+}
