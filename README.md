@@ -1,0 +1,2 @@
+# generalities
+Common constants
