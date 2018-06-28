@@ -4,6 +4,7 @@
 
 - Country codes
 - Http codes
+- Http methods
 - Language codes
 
 ## How to use
@@ -18,6 +19,14 @@ npm install generalities --save
 import { UNITED_KINGDOM } from 'generalities/country-codes';
 // print: gb
 console.log(UNITED_KINGDOM);
+```
+
+### Http Methods
+
+```js
+import { GET } from 'generalities/http-methods';
+// print: GET
+console.log(GET);
 ```
 
 ### Http Codes
@@ -51,3 +60,4 @@ Please feel free to submit, comment anything on this repo :)
 ## Todos
 
 - [ ] Currency codes
+- [ ] [MIME types and extensions](https://developer.mozilla.org/fr/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types)
