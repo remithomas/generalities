@@ -2,16 +2,24 @@
 
 > Simple common constants
 
-- Country codes
-- Http codes
-- Http methods
-- Language codes
+- [Country codes](#country-codes) (fr,es,...)
+- [Http codes](#http-codes) (404,499,...)
+- [Http methods](#http-methods) (GET,POST,...)
+- [Language codes](#language-codes) (fr,ty,...)
 
 ## How to use
 
 ```bash
 npm install generalities --save
 ```
+
+or 
+
+```bash
+yarn add generalities
+```
+
+## Generalities
 
 ### Country codes
 
@@ -45,7 +53,7 @@ import { FRENCH, TAHITIAN } from 'generalities/language-codes';
 console.log(FRENCH, TAHITIAN);
 ```
 
-## Developement
+## Development
 
 ```bash
 npm install
