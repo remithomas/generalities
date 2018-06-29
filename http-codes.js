@@ -1,1 +1,17 @@
-export * from './src/httpCodes';
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+var _countryCodes = require('./dist/httpCodes');
+
+Object.keys(_countryCodes).forEach(function (key) {
+    if (key === 'default' || key === '__esModule') return;
+    Object.defineProperty(exports, key, {
+        enumerable: true,
+        get: function get() {
+            return _countryCodes[key];
+        }
+    });
+});
