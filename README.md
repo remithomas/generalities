@@ -59,7 +59,13 @@ console.log(FRENCH, TAHITIAN);
 npm install
 ```
 
-Add your `generalities` and then run `npm run lint`
+Add your `generalities` and then run `npm run compile`
+
+Linting
+
+```bash
+npm run lint
+```
 
 ## Contributing
 
