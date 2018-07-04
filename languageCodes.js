@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var LanguageCodes;
 (function (LanguageCodes) {
     // ISO 639-1
@@ -209,3 +209,4 @@ var LanguageCodes;
     LanguageCodes.CHUANG = 'za';
     LanguageCodes.ZULU = 'zu';
 })(LanguageCodes = exports.LanguageCodes || (exports.LanguageCodes = {}));
+//# sourceMappingURL=languageCodes.js.map

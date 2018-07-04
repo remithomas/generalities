@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var CountryCodes;
 (function (CountryCodes) {
     CountryCodes.AFGHANISTAN = 'af';
@@ -248,3 +248,4 @@ var CountryCodes;
     CountryCodes.ZAMBIA = 'zm';
     CountryCodes.ZIMBABWE = 'zw';
 })(CountryCodes = exports.CountryCodes || (exports.CountryCodes = {}));
+//# sourceMappingURL=countryCodes.js.map

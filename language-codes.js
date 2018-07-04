@@ -1,17 +1,6 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', {
-    value: true
-});
-
-var _countryCodes = require('./dist/languageCodes');
-
-Object.keys(_countryCodes).forEach(function (key) {
-    if (key === 'default' || key === '__esModule') return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _countryCodes[key];
-        }
-    });
-});
+"use strict";
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+exports.__esModule = true;
+__export(require("./src/languageCodes"));
