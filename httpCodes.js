@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var HttpCodes;
 (function (HttpCodes) {
     // 1×× Informational
@@ -71,3 +71,4 @@ var HttpCodes;
     HttpCodes.HTTP_CODE_NETWORK_AUTHENTICATION_REQUIRED = 511;
     HttpCodes.HTTP_CODE_NETWORK_CONNECT_TIMEOUT_ERROR = 599;
 })(HttpCodes = exports.HttpCodes || (exports.HttpCodes = {}));
+//# sourceMappingURL=httpCodes.js.map

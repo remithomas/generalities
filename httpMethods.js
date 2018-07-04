@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var HttpMethods;
 (function (HttpMethods) {
     HttpMethods.GET = 'GET';
@@ -10,3 +10,4 @@ var HttpMethods;
     HttpMethods.PATCH = 'PATCH';
     HttpMethods.OPTIONS = 'OPTIONS';
 })(HttpMethods = exports.HttpMethods || (exports.HttpMethods = {}));
+//# sourceMappingURL=httpMethods.js.map
