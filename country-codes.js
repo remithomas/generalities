@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// export namespace CountryCodes {
 exports.AFGHANISTAN = 'af';
 exports.ALBANIA = 'al';
 exports.ALGERIA = 'dz';
@@ -246,4 +245,3 @@ exports.WESTERN_SAHARA = 'eh';
 exports.YEMEN = 'ye';
 exports.ZAMBIA = 'zm';
 exports.ZIMBABWE = 'zw';
-// }

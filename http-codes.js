@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// export namespace HttpCodes {
 // 1×× Informational
 exports.HTTP_CODE_CONTINUE = 100;
 exports.HTTP_CODE_SWITCHING_PROTOCOLS = 101;
@@ -69,4 +68,3 @@ exports.HTTP_CODE_LOOP_DETECTED = 508;
 exports.HTTP_CODE_NOT_EXTENDED = 510;
 exports.HTTP_CODE_NETWORK_AUTHENTICATION_REQUIRED = 511;
 exports.HTTP_CODE_NETWORK_CONNECT_TIMEOUT_ERROR = 599;
-// }

@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// export namespace LanguageCodes {
 // ISO 639-1
 exports.ABKHAZIAN = 'ab';
 exports.AFAR = 'aa';
@@ -207,4 +206,3 @@ exports.YORUBA = 'yo';
 exports.ZHUANG = 'za';
 exports.CHUANG = 'za';
 exports.ZULU = 'zu';
-// }
