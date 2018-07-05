@@ -1,10 +1,10 @@
 "use strict";
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(require("./countryCodes"));
-__export(require("./httpCodes"));
-__export(require("./httpMethods"));
-__export(require("./languageCodes"));
-//# sourceMappingURL=index.js.map
+const CountryCodes = require("./country-codes");
+exports.CountryCodes = CountryCodes;
+const HttpCodes = require("./http-codes");
+exports.HttpCodes = HttpCodes;
+const HttpMethods = require("./http-methods");
+exports.HttpMethods = HttpMethods;
+const LanguageCodes = require("./language-codes");
+exports.LanguageCodes = LanguageCodes;

@@ -1,12 +1,12 @@
 {
   "name": "generalities",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Common constants",
-  "main": "src/index.js",
+  "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "lint:fix": "tslint -c tslint.json 'src/**/*.ts' --fix",
-    "prets": "tsc --declaration --esModuleInterop",
     "ts": "tsc",
     "serve:ts": "npx tsc --watch",
     "compile": "npm run ts",
