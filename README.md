@@ -3,6 +3,7 @@
 > Simple common constants, for Javascript and Typescript projects.
 
 - [Country codes](#country-codes) (fr,es,...)
+- [Extensions](#extensions) (wav,doc,3gp,...)
 - [Http codes](#http-codes) (404,499,...)
 - [Http methods](#http-methods) (GET,POST,...)
 - [Language codes](#language-codes) (fr,ty,...)
@@ -29,6 +30,16 @@ import { UNITED_KINGDOM } from 'generalities/country-codes';
 console.log(UNITED_KINGDOM);
 ```
 
+### Extensions
+
+Print extensions with the dot `.`
+
+```js
+import { VIDEO_3GPP2 } from 'generalities/extensions';
+// print: 3g2
+console.log(VIDEO_3GPP2);
+```
+
 ### Http Methods
 
 ```js
@@ -53,6 +64,14 @@ import { FRENCH, TAHITIAN } from 'generalities/language-codes';
 console.log(FRENCH, TAHITIAN);
 ```
 
+### MIME types
+
+```js
+import { VIDEO_3GPP2 } from 'generalities/mime-types';
+// print: video/3gpp2
+console.log(VIDEO_3GPP2);
+```
+
 ## Development
 
 ```bash
@@ -74,4 +93,3 @@ Please feel free to submit, comment anything on this repo :)
 ## Todos
 
 - [ ] Currency codes
-- [ ] [MIME types and extensions](https://developer.mozilla.org/fr/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types)
