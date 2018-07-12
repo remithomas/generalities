@@ -32,7 +32,7 @@ console.log(UNITED_KINGDOM);
 
 ### Extensions
 
-Print extensions with the dot `.`
+Print extensions without dot `.`
 
 ```js
 import { VIDEO_3GPP2 } from 'generalities/extensions';
