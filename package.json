@@ -10,7 +10,8 @@
     "ts": "tsc",
     "serve:ts": "npx tsc --watch",
     "compile": "npm run ts",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "exit 0",
+    "validate": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,11 @@
   "homepage": "https://github.com/remithomas/generalities#readme",
   "devDependencies": {
     "tslint": "^5.10.0",
-    "typescript": "^2.9.2"
+    "typescript": "^3.3.3333"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run validate"
+    }
   }
 }
